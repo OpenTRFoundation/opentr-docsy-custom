@@ -1,4 +1,4 @@
-module github.com/google/docsy
+module github.com/OpenTRFoundation/opentr-docsy-custom
 
 go 1.12
 
