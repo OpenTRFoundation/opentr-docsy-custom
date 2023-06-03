@@ -12,11 +12,6 @@
     });
 {{ end -}}
 
-    if (!needMermaid)  {
-        mermaid.initialize({startOnLoad: false});
-        return;
-    }
-
     var params = {{ .Site.Params.mermaid | jsonify | safeJS }};
 
     // site params are stored with lowercase keys; lookup correct casing
