@@ -1,0 +1,5 @@
+_extends: .github
+
+repository:
+  name: opentr-docsy-custom
+  description: Docsy fork for OpenTR
